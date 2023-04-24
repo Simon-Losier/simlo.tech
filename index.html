@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simon's Webpage</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Inter, sans-serif;
+            background-color: black;
+        }
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 100vh;
+        }
+        .text {
+            font-size: 8em;
+            font-weight: bold;
+            background: linear-gradient(148deg, rgba(0,240,255,1) 0%, rgba(250,0,255,1) 100%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .image {
+            height: 100%;
+            width: 50%;
+            background-image: url('image1.png');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="text">
+        Hey!<br> I'm Simon
+    </div>
+    <div class="image"></div>
+</div>
+</body>
+</html>
