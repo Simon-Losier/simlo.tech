@@ -2,40 +2,18 @@
 <html>
 <head>
     <title>Simon's Webpage</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: Inter, sans-serif;
-            background-color: black;
-        }
-        .container {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            height: 100vh;
-        }
-        .text {
-            font-size: 8em;
-            font-weight: bold;
-            background: linear-gradient(148deg, rgba(0,240,255,1) 0%, rgba(250,0,255,1) 100%);
-            background-clip: text;
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-        .image {
-            height: 100%;
-            width: 50%;
-            background-image: url('image1.png');
-            background-size: cover;
-            background-position: center;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="container">
-    <div class="text">
-        Hey!<br> I'm Simon
+    <div class="hero-elements">
+        <p class="hero-text">Hey!<br> I'm Simon</p>
+        <div>
+            <a href="https://blog.simlo.tech/"><button class="button-gr">Blog</button></a>
+            <a href="https://simon-losier.artstation.com/"><button class="button-gr">Portfolio</button></a>
+            <a href="https://github.com/Simon-Losier"><button class="button-gr">Github</button></a>
+            <a href="https://www.linkedin.com/in/simon-losier"><button class="button-gr">LinkedIn</button></a>
+        </div>
     </div>
     <div class="image"></div>
 </div>
